@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCustom - Contato</title>
+</head>
+<body>
+    <center>
+        <h1>TechCustom</h1>
+        
+        <nav>
+            <a href="index.html">Início</a> | 
+            <a href="home.html">Home</a> | 
+            <a href="produtos.html">Produtos</a> | 
+            <a href="sobre.html">Sobre</a> 
+        </nav>
+        
+        <hr width="80%">
+
+        <h2>Fale Conosco</h2>
+        <p>Tem alguma dúvida sobre nossos periféricos ou quer rastrear seu pedido? Envie uma mensagem!</p>
+        <br>
+        <form>
+            <table border="0" 
+            cellpadding="8" 
+            cellspacing="0" 
+            width="0"> <!--tabela invisivel pra organização-->
+                <tbody>
+                    <tr>
+                        <td align="right" width="30%"> <!--Processo Papel de Produto-->
+                            <label for="Nome-Completo">*Nome:</label>
+                        </td>
+                        <td align="left" width="70%">
+                            <input type="text" 
+                            id="Nome-Completo" 
+                            name="nome" 
+                            placeholder="Digite seu nome aqui" 
+                            required 
+                            />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right"> <!--formato papel de produto-->
+                            <label for="Email">*E-mail:</label>
+                        </td>
+                        <td align="left">
+                            <input type="email" 
+                            id="Email" 
+                            name="email" 
+                            placeholder="exemplo@email.com" 
+                            required 
+                            />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            <label for="AssuntoX">*Assunto:</label>
+                        </td>
+                        <td align="left">
+                            <select 
+                            name="assunto" 
+                            id="AssuntoX" 
+                            required> <!--menu-->
+                                <option>Dúvidas sobre Produtos</option><!--comida nhame-->
+                                <option>Suporte Técnico / Hardware</option>
+                                <option>Compras e Estoque</option>
+                                <option>Reclamações / Entregas</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right" valign="top">
+                            <label for="M">Mensagem:</label>
+                        </td>
+                        <td align="left">
+                            <textarea 
+                            name="mensagem" 
+                            id="M" 
+                            placeholder="Escreva sua mensagem aqui..." 
+                            rows="6" 
+                            cols="38">
+                            </textarea>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align>
+                            <button>Enviar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <br><br>
+        <hr width="80%">
+        <p><small>&copy; 2026 TechCustom - Todos os direitos reservados.</small></p>
+    </center>
+</body>
+</html>
